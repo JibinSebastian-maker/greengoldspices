@@ -1,6 +1,6 @@
 :root{
-  --purple:#3A1B5A;
-  --purple2:#5A2B84;
+  --purple:#09b615;
+  --purple2:#17dc69;
   --green:#64B833;
   --cream:#FAF7F0;
   --text:#1A1A1A;
@@ -23,7 +23,7 @@ body{
 .container{ width:min(1100px, 92%); margin:0 auto; }
 
 .topbar{
-  background: rgba(58,27,90,.95);
+  background: rgba(5, 137, 69, 0.95);
   color:#fff;
   font-size:14px;
 }
@@ -43,7 +43,7 @@ body{
 
 .header{
   position:sticky; top:0;
-  background: rgba(250,247,240,.86);
+  background: #02ad55;
   backdrop-filter: blur(10px);
   border-bottom:1px solid var(--line);
   z-index:50;
@@ -58,8 +58,8 @@ body{
   text-decoration:none; color:inherit;
 }
 .brand__logo{
-  width:44px; height:44px; object-fit:contain;
-  border-radius:12px;
+  width:64px; height:64px; object-fit:contain;
+  border-radius:7px;
 }
 .brand__name{ font-weight:800; letter-spacing:.2px; }
 .brand__tag{ font-size:13px; color:var(--muted); margin-top:2px; }
