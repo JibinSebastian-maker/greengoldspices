@@ -747,14 +747,15 @@ textarea{
 }
 
 .brandQuote{
-  margin:16px 0;
-  color:var(--gold);
-  font-size:22px;
-  font-style:italic;
-  font-weight:700;
-  line-height:1.5;
-  text-align:center;
-  font-family:Georgia, serif;
+  margin: 12px 0 10px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--primary);
+  padding-left: 14px;
+  border-left: 4px solid var(--gold);
+  letter-spacing: 0.3px;
 }
 
 .heroCard__text{
